@@ -24,7 +24,7 @@ void setup()
   DigiKeyboard.println("start 'https://www.youtube.com/watch?v=TRmmNBqsNvw'");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(200);
-  DigiKeyboard.println("$lockscreen.");
+  DigiKeyboard.println("$lockscreen");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   
 }
